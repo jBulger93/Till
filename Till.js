@@ -1,25 +1,25 @@
 var apples = {
-name: 'Apples'
+name: 'Apples',
 price: 0.99
 }
 var pears = {
-name: 'Pears'
+name: 'Pears',
 price: 0.20
 }
 var bannanas = {
-name: 'Bannanas'
+name: 'Bannanas',
 price: 0.75
 }
 var oranges = {
-name: 'Oranges'
+name: 'Oranges',
 price: 0.50
 }
 var melons = {
-name: 'Melons'
+name: 'Melons',
 price: 1.99
 }
 
-var products = [apples] [pears] [bannanas] [oranges] [melons]
+var products = [apples, pears, bannanas, oranges, melons]
 
 for (var productIndex = 0; productIndex < products.length; productIndex++) {
   var buttonsContainer = document.getElementById('buttons')
